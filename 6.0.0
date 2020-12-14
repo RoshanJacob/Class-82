@@ -1,0 +1,17 @@
++ react-native-vector-icons@7.1.0
+added 31 packages from 16 contributors and audited 1035 packages in 10.81s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 19 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+
+undefined operator abs expo update 36.0.0
+Failed to install expo package with error:
+spawn yarnpkg ENOENT
+delete node_modules, .expo , .expo-shared,  package-lock.json files and run npm install again
+npm install --force
+expo update 36.0.0
+expo start -c
